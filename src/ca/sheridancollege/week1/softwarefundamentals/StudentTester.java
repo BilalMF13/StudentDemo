@@ -20,13 +20,17 @@ public class StudentTester {
         StudentDemo[] StudentLst=new StudentDemo[3];
         
         StudentDemo s1=new StudentDemo("Sheetal Thakar");
+        s1.setId(123);
+        
         StudentLst[0]=s1;
         
-        StudentLst[1]=new StudentDemo("amrit kaur");
+        StudentLst[1]=new StudentDemo("Amrit Kaur");
         StudentLst[2]=new StudentDemo("Malav Jani");
         
         for(StudentDemo StudentLst1 : StudentLst) {
             System.out.println(StudentLst1.getName());
+            System.out.println(StudentLst1.getId());
+            System.out.println();
         }
         
         }
