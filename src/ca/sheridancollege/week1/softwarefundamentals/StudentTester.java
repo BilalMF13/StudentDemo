@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ca.sheridancollege.week1.softwarefundamentals;
-
+//Tyesday, May 21st
 public class StudentTester {
     public static void main(String[] args){
         
